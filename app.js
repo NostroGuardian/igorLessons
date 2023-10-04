@@ -4,6 +4,7 @@ const actionButton = document.querySelector('.actionButton');
 const usersWrapper = document.querySelector('.users');
 actionButton.addEventListener('click', showUsers);
 function showUsers() {
+  usersWrapper.innerHTML = '';
   taskArray.sort().forEach((el, i) => {
     const card = document.createElement('div');
     card.classList.add('card');

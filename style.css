@@ -32,4 +32,6 @@ body {
   border: 0.125rem solid rgb(44, 44, 44);
   cursor: pointer;
   padding: 1rem 2rem;
+  display: block;
+  margin: 2rem auto;
 }
